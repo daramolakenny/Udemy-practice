@@ -1,0 +1,75 @@
+.wrapper{
+    width: 50%;
+    margin-left: 25%;
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+}
+body{
+    background-color: black;
+}
+
+.wrapper img{
+    border: 5px solid white;
+    width: 100%;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 3rem; /* 16px equivalent */
+}
+/* https://meet.google.com/gjr-pfza-nxr */
+
+.blue-box{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background-color: blue;
+    top: 200px;
+    left: 200px;
+}
+.red-circle{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    top: 150px;
+    left: 150px;
+}
+
+/* flag */
+.flag {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin-top: 300px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+    margin-bottom: 200px;
+}
+.flag > p {
+    color: white;
+    margin-top: -5px;
+    font-size: 2.5rem;
+}
+
+.flag div {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    height: 130px;
+    background: navy;
+}
+
+.flag div > p{
+    width: 80px;
+    height: 80px;
+    margin-left: 200px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    font-size: 2rem;
+}
