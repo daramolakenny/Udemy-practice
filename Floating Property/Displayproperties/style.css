@@ -1,0 +1,48 @@
+.d-inline {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: #fff;
+    display: inline-block;
+}
+
+.d-none {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: #fff;
+    display: inline-block;
+}
+
+.d-inline-block {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    color: #fff;
+    display: inline-block;
+}
+
+.d-inline1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: #fff;
+    display: block;
+    margin-left: 30%;
+}
+.d-inline2 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: #fff;
+    display: block;
+    margin-left: 30%;
+}
+.d-inline3 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    color: #fff;
+    display: block;
+    margin-left: 30%;
+}
